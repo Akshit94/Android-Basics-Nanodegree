@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jainsaab.autonexinternational.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:id="@+id/product_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_scroll_view_height"
+            android:background="@color/colorPrimary"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/product_margin"
+                    android:contentDescription="@string/break_pads"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/break_pad" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/product_margin"
+                    android:contentDescription="@string/break_shoes"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/break_shoe" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/product_margin"
+                    android:contentDescription="@string/control_cables"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/control_cable" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/product_margin"
+                    android:contentDescription="@string/driveshaft_axles"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/driveshaft_axle" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/product_margin"
+                    android:contentDescription="@string/filters"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/filters" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:text="@string/description_header"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/header_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:text="@string/reach_out"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/header_text_size" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/header_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/call"
+                android:src="@drawable/ic_call_black_24dp"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/header_margin"
+                android:layout_marginStart="@dimen/header_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_numbers" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/header_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/address_description"
+                android:src="@drawable/ic_location_on_black_24dp"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/header_margin"
+                android:layout_marginStart="@dimen/header_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/header_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/email"
+                android:src="@drawable/ic_email_black_24dp"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/header_margin"
+                android:layout_marginStart="@dimen/header_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_id" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:text="@string/working_hours"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/header_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_margin"
+            android:layout_marginStart="@dimen/header_margin"
+            android:text="@string/working_hours_data"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+</ScrollView>
+

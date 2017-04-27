@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Autonex International</string>
+    <string name="description_header">Description</string>
+    <string name="break_pads">Break Pads</string>
+    <string name="break_shoes">Break Shoes</string>
+    <string name="control_cables">Control Cables</string>
+    <string name="driveshaft_axles">Driveshaft Axles</string>
+    <string name="filters">Filters</string>
+    <string name="description">At Autonex International, we provide full range of services to people that need a reliable supply of Automobile parts anywhere in the world. Evolved from Deepak Automobiles with the same promising and reliable history of providing people with the Best High Quality products at the most reasonable price Autonex has its Head Office in Delhi, India. We believe in the same principles as there were in past with an add on by exhibiting flawless quality products as per requirement ,drawing and specifications of our customers , ultimately maintaining good accuracy and precision in customized products as well. Our agency is based on three main pillars to implement true business ethics: \n &#8226; TQM: Total Quality Management \n &#8226; TCS: Total Customer Satisfaction  \n &#8226; CC: Cost Control  \n Our Company’s aim to give the best products made of superior quality raw materials with stringent quality control checks at all stages from procurement to delivery is what that make us different with any other organization in our field. In Today’s competitive world our Products don’t require any publicity because we believe that Good quality sells by itself and our philosophy is Enhance Quality rather than Quantity that’s why we are known for our Quality.</string>
+    <string name="reach_out">Reach Out</string>
+    <string name="call">call</string>
+    <string name="phone_numbers">+91&#8211;9654343903 \n+91&#8211;11&#8211;64771985 \n+91&#8211;11&#8211;23994090</string>
+    <string name="address">2746/28, 2nd Floor \nManoher Motor Market \nKashmere Gate, Delhi-110006, India</string>
+    <string name="address_description">Address</string>
+    <string name="email">Email</string>
+    <string name="email_id">contact@theautonex.com</string>
+    <string name="working_hours">Working Hours</string>
+    <string name="working_hours_data">Mon \u00098AM–10PM\nTue \u00098AM–10PM\nWed \u00098AM–10PM\nThu \u00098AM–10PM\nFri \u00098AM–10PM\nSat \u00098AM–9PM\nSun \u000910AM–6PM</string>
+</resources>
