@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="listen_now">Listen Now</string>
+    <string name="recent_description">This screen will contain names and album arts of all the recent albums, songs and play lists that the user have used or uses frequently. \nLibraries such as Picasso or Glide will be used for downloading and displaying album arts. \nSongs can be arranged in a list or grid manner hence ListView or GridView will be used. \nLocal Database will be created using SQL for storing the names of songs and albums and cached album arts.</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="playlist">PlayList</string>
+    <string name="shop_online">Shop Online</string>
+    <string name="now_playing_description">This screen will be used to display the currently playing song by the app.\nA foreground service will be created in this activity so that the song could run even after the has been closed. \nButtons such as PLAY, PAUSE, NEXT, SHUFFLE etc. will be used to control the song being played.\nMediaPlayer class will be used to play the song stored locally on the device.</string>
+    <string name="play">Play</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="next">Next</string>
+    <string name="pause">Pause</string>
+    <string name="play_list_description">This activity will the playlist selected by the user.\nListView will be used to show the songs in the playlist.</string>
+    <string name="shop_description">This activity will be used to display songs that can be purchased by the user on the GooglePlayStore.\nGooglePlayServices dependencies will be used to access the Google songs database.\nFor purchasing the user will be transferred to the GooglePlayStore using an Implicit Intent.</string>
+    <string name="purchase">Purchase</string>
+</resources>
