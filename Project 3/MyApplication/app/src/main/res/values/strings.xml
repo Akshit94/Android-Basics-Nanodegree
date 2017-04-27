@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pop Quiz</string>
+    <string name="android_icon_content_description">Android</string>
+    <string name="who_developed_android">Who Developed Android?</string>
+    <string name="firstname_lastname">FirstName LastName</string>
+    <string name="alert">Oopss! Wrong Answer. Try again.</string>
+    <string name="awesome">Awesome! The answer is correct.</string>
+    <string name="close">You are close! Give it one more try.</string>
+    <string name="alert_content_description">Alert</string>
+    <string name="give_a_shot">Awww! At least give it a shot.</string>
+    <string name="answer_1">Andy Rubin</string>
+    <string name="flavour_ques">Which of the following are flavours of Android?</string>
+    <string name="lollipop">Lollipop</string>
+    <string name="marshmallow">MarshMallow</string>
+    <string name="kitkat">KitKat</string>
+    <string name="vanilla">Vanilla</string>
+    <string name="android_belongs_to_which_company_today">Android belongs to which company today?</string>
+    <string name="intel">Intel</string>
+    <string name="google">Google</string>
+    <string name="microsoft">Microsoft</string>
+    <string name="facebook">Facebook</string>
+    <string name="in_which_year_android_was_developed">In which year Android was developed?</string>
+    <string name="_2005">2005</string>
+    <string name="_2007">2007</string>
+    <string name="_2003">2003</string>
+    <string name="_2008">2008</string>
+    <string name="submit">Submit</string>
+</resources>
