@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="news_image">News Image</string>
+    <string name="learning_android">Learning Android</string>
+    <string name="android">Android</string>
+    <string name="no_network">No network available to fetch news data</string>
+    <string name="wait_for_the_data">Wait for the data.</string>
+</resources>
