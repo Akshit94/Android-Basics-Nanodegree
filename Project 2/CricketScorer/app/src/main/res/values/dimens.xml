@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="linear_layout_1_width">0dp</dimen>
+    <dimen name="team_text_view_padding">16dp</dimen>
+    <dimen name="team_text_view_size">14sp</dimen>
+    <dimen name="score_padding">24dp</dimen>
+    <dimen name="score_text_size">56sp</dimen>
+    <dimen name="btn_margin_top">8dp</dimen>
+    <dimen name="custom_view_width">1dp</dimen>
+    <dimen name="linear_layout_2_width">0dp</dimen>
+    <dimen name="reset_btn_margin">32dp</dimen>
+</resources>

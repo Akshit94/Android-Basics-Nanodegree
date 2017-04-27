@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cricket Scorer</string>
+    <string name="team_a">Team A</string>
+    <string name="zero">0</string>
+    <string name="slash">/</string>
+    <string name="single">Single</string>
+    <string name="dbl">Double</string>
+    <string name="_3_runs">+3 Runs</string>
+    <string name="four">Four</string>
+    <string name="_5_runs">+5 Runs</string>
+    <string name="six">Six</string>
+    <string name="wide">Wide</string>
+    <string name="no_ball">No Ball</string>
+    <string name="out">Out</string>
+    <string name="team_b">Team B</string>
+    <string name="reset">Reset</string>
+    <string name="fnl">Final</string>
+</resources>
