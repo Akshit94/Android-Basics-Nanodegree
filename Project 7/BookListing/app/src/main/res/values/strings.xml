@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+    <string name="search">Search</string>
+    <string name="eg_android">Eg: Android</string>
+    <string name="book_image">Book Image</string>
+    <string name="learning_android">Learning Android</string>
+    <string name="by_akshit_jain">By Akshit Jain</string>
+    <string name="instruction_text">To search for the books enter the book name and hit the search button.</string>
+    <string name="enter_book_name">Please enter a book name.</string>
+    <string name="no_results_found">No results found.</string>
+    <string name="please_wait_while_the_results_are_fetched">Please wait while the results are fetched.</string>
+    <string name="no_internet">Oops! Your device is not connected to internet.</string>
+</resources>
